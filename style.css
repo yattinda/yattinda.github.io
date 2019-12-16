@@ -29,13 +29,11 @@ body{
 #side{
       width: 25%;
       font-size:20px;
-      margin-left:50px;
+      margin-left: auto;
       float: left;
 }
 
-#wrapper{
-      width:100%;
-    }
+
 
 
   #main h1{

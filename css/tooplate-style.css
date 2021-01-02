@@ -1,4 +1,4 @@
-/* 	
+/*
 
 Template 2102 Constructive
 
@@ -46,7 +46,7 @@ p {
 p:last-child { margin-bottom: 0; }
 
 .tm-bg-transparent-black {
-    background-color: rgba(0,0,0,0.25);    
+    background-color: rgba(0,0,0,0.25);
     padding: 30px;
 }
 
@@ -170,7 +170,7 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a.active {
     background-image: url(../img/nav-item-highlight.png);
     color: #33ccff;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .tm-main-nav a:hover .tm-nav-fa-icon,
@@ -215,13 +215,15 @@ p:last-child { margin-bottom: 0; }
 .tm-section {
     max-width: 100%;
     width: auto;
-    background: transparent;    
+    background: transparent;
 }
 
 .col-md-6.tm-contact-col { margin-bottom: 0; }
 
 .tm-img-slider { max-width: 940px; }
-#tm-section-1 { max-width: 700px; }
+#tm-section-1 {
+	max-width: 700px;
+ }
 
 .tm-icon-media {
   margin-right: 1.5rem;
@@ -229,7 +231,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 address { font-size: 1rem; }
-.form-control { 
+.form-control {
     background: transparent;
     border-color: white;
     color: white;
@@ -271,7 +273,7 @@ address { font-size: 1rem; }
     right: 20px;
     margin-left: 20px;
     color: white;
-    text-align:right;    
+    text-align:right;
     width:100%;
     z-index: 999;
 }
@@ -328,7 +330,7 @@ footer a { color: white; }
   }
 }
 
-@media (max-width: 991px) {    
+@media (max-width: 991px) {
 
     /*  Nav toggle
         https://www.youtube.com/watch?v=uyT3NSHhke8
@@ -336,13 +338,13 @@ footer a { color: white; }
 
     .tm-main-row { position: relative; }
 
-    #tmMainNavToggle { 
+    #tmMainNavToggle {
         display: block;
         position: absolute;
         right: -60px;
         top: 0;
     }
-    
+
     .menu-icon {
         padding: 10px 15px;
         background: #000000c4;
@@ -356,7 +358,7 @@ footer a { color: white; }
         height: 50px;
         z-index: 1001;
     }
-    
+
     #tmSideBar {
         width: 300px;
         position: absolute;
@@ -384,7 +386,7 @@ footer a { color: white; }
 
     .tm-section { margin-left: auto; }
 
-    .tm-section-carousel {    
+    .tm-section-carousel {
       max-width: 620px;
       width: 100%;
     }
@@ -395,7 +397,7 @@ footer a { color: white; }
 }
 
 @media (max-width: 640px) {
-  .tm-section-carousel {    
+  .tm-section-carousel {
     max-width: 300px;
     padding-bottom: 50px;
   }
@@ -404,7 +406,7 @@ footer a { color: white; }
 @media (max-width: 600px) {
     .tm-contact-box-pad { padding: 30px 25px; }
 
-    .footer-link {      
+    .footer-link {
       margin: 0 auto;
       width: 90%;
     }
@@ -477,7 +479,7 @@ footer a { color: white; }
 }
 
 @-webkit-keyframes spin {
-    0%   { 
+    0%   {
         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: rotate(0deg);  /* IE 9 */
         transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -489,7 +491,7 @@ footer a { color: white; }
     }
 }
 @keyframes spin {
-    0%   { 
+    0%   {
         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: rotate(0deg);  /* IE 9 */
         transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -527,7 +529,7 @@ footer a { color: white; }
         -ms-transform: translateX(-100%);  /* IE 9 */
             transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
             transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
@@ -536,13 +538,13 @@ footer a { color: white; }
         -ms-transform: translateX(100%);  /* IE 9 */
             transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 
--webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader {
     opacity: 0;
-    -webkit-transition: all 0.3s ease-out;  
+    -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
@@ -552,7 +554,7 @@ footer a { color: white; }
         -ms-transform: translateY(-100%);  /* IE 9 */
             transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-    -webkit-transition: all 0.3s 1s ease-out;  
+    -webkit-transition: all 0.3s 1s ease-out;
             transition: all 0.3s 1s ease-out;
 }
 

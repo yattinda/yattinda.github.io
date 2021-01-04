@@ -562,3 +562,14 @@ footer a { color: white; }
 .no-js #loader-wrapper {
     display: none;
 }
+
+
+#TrackPaint {
+	 background-image: url("../img/TrackPaint.jpg");
+	 background-size: cover;
+}
+
+#CORGI {
+	 background-image: url("../img/CORGI.jpg");
+	 background-size: cover;
+}
